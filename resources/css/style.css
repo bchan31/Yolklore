@@ -1,0 +1,276 @@
+/*---Basic---*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #fff;
+    font-family: 'Inconsolata', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix{ zoom: 1; }
+
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+h2{
+    font-size: 200%;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #ffd200;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*---Header---*/
+.section-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 9999;
+}
+
+.main-nav{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 80%;
+}
+
+.basic-lunch-logo-nav{
+    margin: 10px;
+    margin-left: 30px;
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+/*---Title Card---*/
+.section-title-card .bounceInDown{
+    animation-delay: 3s;
+    animation-duration: .9s;
+}
+
+.section-title-card .fadeIn{
+    animation-delay: 2s;
+    animation-duration: 3s;
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    margin: 30px auto;
+}
+
+.section-title-card{
+    margin-top: 300px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 350px;
+}
+
+.section-title-card p{
+    margin-top: 20px;
+}
+
+.section-title-card img{
+    width: 40%;
+    margin-top: 50px;
+}
+
+/*---Yolklore---*/
+.splash-img{
+    width: 100%;
+}
+
+.long-copy{
+    line-height: 145%;
+    width: 42%;
+    margin-left: 29%;
+    margin-bottom: 40px;
+}
+
+.faye-toma{
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: 300%;
+    margin-left: 0;
+}
+
+.features div{
+    text-align: center;
+}
+
+.feature-copy{
+    font-size: 80%;
+    line-height: 145%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/*---Newsletter---*/
+.section-newsletter{
+    background-color: #ffd200;
+}
+
+.section-newsletter h2::after{
+    background-color: #000;
+}
+
+.section-newsletter p{
+    padding: 2%;
+    line-height: 145%;
+    width: 90%;
+    margin-left: 3%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-form{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contact-form div{
+    margin-bottom: 40px;
+}
+
+.contact-form p{
+    padding: 3%;
+}
+
+input[type=email]{
+    width: 60%;
+    padding: 2%;
+}
+
+input[type=submit]{
+    padding: 2%;
+    margin-left: 0;
+    margin-right: 9px;
+    float: right;
+}
+
+*:focus{
+    outline: none;
+}
+
+/*---About Us---*/
+.section-about-us{
+    background-color: #eee;
+}
+.section-about-us div{
+    text-align: center;
+}
+
+.about-photo{
+    height: 200px;
+    width: auto;   
+    border-radius: 50%; 
+    margin-top: 20px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.section-about-us p{
+    text-align: left;
+    line-height: 145%;
+    font-size: 70%;
+    padding: 10px 20px;
+}
+
+.about-box{
+    background-color: #fff;
+    border-radius: 0px;
+    width: 80%;
+    margin-left: 5%;
+    padding: 5%;
+    margin-bottom: 40px;
+}
+/*---Footer---*/
+footer p{
+    padding-top: 20px;
+    padding-left: 25px;
+    color: #888;
+    font-size: 80%;
+    padding-bottom: 15px;
+}
+.section-footer{
+    background-color: #333;
+}
+
+.footer-nav{
+    text-align: left;
+    list-style: none;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.footer-nav li{
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.footer-nav li a{
+    color: #888;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+/*---Anim---*/
+.js--wp-1{
+    opacity: 0;
+}
+
+.js--wp-1 .animated{
+    opacity: 1;
+}
