@@ -46,6 +46,17 @@ h2:after{
     margin-top: 30px;
 }
 
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -65px;
+    left: 0;
+    visibility: hidden;
+}
+
 /*---Header---*/
 .section-nav{
     position: fixed;
@@ -152,6 +163,7 @@ h1{
 /*---Newsletter---*/
 .section-newsletter{
     background-color: #ffd200;
+    position: relative;
 }
 
 .section-newsletter h2::after{
@@ -265,6 +277,30 @@ footer p{
     text-decoration: none;
     font-size: 80%;
 }
+
+/*---Community---*/
+.section-form{
+    margin-top: 65px;
+}
+
+.form-post{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-post col{
+    margin-top: 10px;
+}
+.section-form input[type=text],
+textarea{
+    width: 100%;
+    padding: 2%;
+}
+
+textarea{
+    height: 100px;
+}
+
 
 /*---Anim---*/
 .js--wp-1{
