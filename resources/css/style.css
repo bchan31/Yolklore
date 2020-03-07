@@ -57,6 +57,15 @@ h2:after{
     visibility: hidden;
 }
 
+/*---Anim---*/
+.js--wp-1{
+    opacity: 0;
+}
+
+.js--wp-1 .animated{
+    opacity: 1;
+}
+
 /*---Header---*/
 .section-nav{
     position: fixed;
@@ -76,13 +85,20 @@ h2:after{
 
 .main-nav li{
     display: inline-block;
+    margin-right: 30px
 }
 
 .main-nav li a{
     text-decoration: none;
     color: #fff;
-    padding: 0 20px;
+    padding: 0 0 8px 0;
     font-size: 80%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .2s
+}
+
+.main-nav li a:hover{
+    border-bottom: 2px solid #ffd200;
 }
 
 .basic-lunch-logo-nav{
@@ -281,6 +297,7 @@ footer p{
 /*---Community---*/
 .section-form{
     margin-top: 65px;
+    margin-bottom: 40px;
 }
 
 .form-post{
@@ -301,12 +318,29 @@ textarea{
     height: 100px;
 }
 
-
-/*---Anim---*/
-.js--wp-1{
-    opacity: 0;
+.section-form input[type=submit]{
+    float: left;
 }
 
-.js--wp-1 .animated{
-    opacity: 1;
+/*---Comments---*/
+.section-comments{
+    width: 98%;
+    background-color: #ffd200;
+    padding: 1%;
+    border-top: 1px solid #000;
+}
+
+.user-name{
+    width: 30%;
+    margin-top: 0;
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+}
+
+.user-message{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 80%;
 }
