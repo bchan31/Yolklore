@@ -79,6 +79,10 @@
         font-size: 120%;
     }
 
+    .section-form h2{
+        font-size: 120%;
+    }
+
     .long-copy{
         font-size: 80%;
     }
@@ -111,6 +115,9 @@
         margin: 0 0 10px 0;
     }
 
+    .blank-label{
+        height: 0;
+    }
 }
 
 /* Small phones from 0 to 480px*/
