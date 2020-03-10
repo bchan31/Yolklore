@@ -1,0 +1,119 @@
+/* Devices from 1024px to 1200px*/
+@media only screen and (max-width: 1200px){
+    .long-copy{
+        width: 60%;
+        margin: 0 auto 40px auto;
+    }
+
+    .faye-toma{
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    input[type=email]{
+        width: 55%;
+    }
+
+    .user-message{
+        width: 98%;
+    }
+}
+
+/* Tablets from 768px to 1023px*/
+@media only screen and (max-width: 1023px){
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .contact-form{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .about-box p{
+        text-align: center;
+    }
+    
+    .section-form h2{
+        font-size: 160%;
+    }
+
+    .section-form label{
+        font-size: 80%;
+    }
+
+    .user-name{
+        font-size: 90%;
+    }
+
+    .user-message{
+        width: 97%;
+        font-size: 75%;
+    }
+}
+
+/* Phones or Small Tablets from 481px to 767px*/
+@media only screen and (max-width: 767px){
+    .section-nav{
+        visibility: hidden;
+    }
+
+    .topnav{
+        visibility: visible;
+    }
+
+    h1{
+        font-size: 170%;
+    }
+
+    .section-title-card img{
+        width: 60%;
+    }
+
+    .section-title-card p{
+        font-size: 90%;
+    }
+
+    h2{
+        font-size: 120%;
+    }
+
+    .long-copy{
+        font-size: 80%;
+    }
+
+    .feature-copy{
+        font-size: 70%;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    i{
+        font-size: 80%;
+    }
+
+    .section-newsletter p{
+        font-size: 70%;
+    }
+
+    .contact-form{
+        width: 70%;
+    }
+
+    .section-footer{
+        font-size: 80%;
+    }
+
+    .col{
+        margin: 0 0 10px 0;
+    }
+
+}
+
+/* Small phones from 0 to 480px*/
+@media only screen and (max-width: 480px){
+
+}
