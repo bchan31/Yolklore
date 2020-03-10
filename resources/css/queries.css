@@ -115,5 +115,43 @@
 
 /* Small phones from 0 to 480px*/
 @media only screen and (max-width: 480px){
+    .topnav img{
+        margin-top: 5px;
+        margin-bottom: 2px;
+        height: 35px;
+    }
+
+    h1{
+        font-size: 140%;
+    }
+
+    h2{
+        font-size: 110%;
+    }
+
+    .section-title-card p{
+        font-size: 80%;
+    }
+
+    .long-copy{
+        text-align: center;
+    }
+
+    .features p{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .contact-form{
+        width: 90%;
+    }
+
+    .section-newsletter p{
+        text-align: center;
+    }
+
+    .section-form h2{
+        font-size: 110%;
+    }
 
 }
