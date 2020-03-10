@@ -63,6 +63,12 @@
         visibility: visible;
     }
 
+    .topnav a{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+
     h1{
         font-size: 170%;
     }

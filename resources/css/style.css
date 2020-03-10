@@ -374,7 +374,7 @@ textarea{
   }
 
   .topnav a.icon {
-    background: black;
+    background: #000;
     display: block;
     position: absolute;
     right: 0;
